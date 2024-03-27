@@ -1,0 +1,73 @@
+ul {
+  list-style-type: none;
+  padding: 20px;
+  background-color: palevioletred;
+}
+li {
+  margin-left: 150px;
+  display: inline;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+.b1 {
+  position: relative;
+  bottom: 10px;
+}
+.b2 {
+  position: relative;
+  bottom: 15pxpx;
+}
+.para {
+  line-height: 1.5;
+  font-family: cursive;
+}
+.foot {
+  background-color: palevioletred;
+  text-align: center;
+  padding: 5px;
+}
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  bottom: 40px;
+  color: hotpink;
+}
+.men {
+  text-align: center;
+}
+.men img {
+  border: 3px solid rgb(255, 0, 55);
+  border-radius: 12px;
+  margin-left: 50px;
+}
+.men img:hover {
+  transition: transform linear;
+  transform: scale(1.05, 1.05);
+}
+.more {
+  margin-left: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+form{
+  margin-left: 100px;
+  width: 400px;
+  height: 300px;
+  border-radius: 22px;
+  text-align: center;
+  background-color: pink;
+  box-shadow: 3px 3px 3px 3px;
+}
+input[type="submit"]
+{
+  width: 100px;
+  height: 30px;
+  background-color: #f5e558;
+}
+input[type="submit"]:hover
+{
+  color: red;
+}
